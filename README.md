@@ -84,3 +84,10 @@ It should be something like: guardian-ui.fedimint.yourdomain.com
 
 If you are just creating a one person test, go to "solo", if you are doing this with multiple people, then one person will start with "leader" and start the process. They will create the federation name and general federation info. Once the leader has an invite URL, then the rest should go through the "follower" flow. The followers will create their member info and then there's a confirmation stage where everyone confirms their session IDs together. Then the federation is set up. 
 
+### Backups
+
+A backup should be done after a federation was started. These initial files will ensure that you can recover later, with the help of the other federation members to resync the missing state. 
+
+```
+scp -r <username>@<ip address of server>:/var/lib/docker/volumes <whatever you want to call the backup file>
+```
