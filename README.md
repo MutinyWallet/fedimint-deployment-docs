@@ -53,7 +53,7 @@ sudo systemctl enable ufw
 ### run the script
 
 ```
-curl -sSL https://raw.githubusercontent.com/tonygiorgio/fedimint/mainnet-deploy/docker/tls-download-mainnet.sh | bash
+curl -sSL https://raw.githubusercontent.com/MutinyWallet/fedimint-deployment-docs/master/docker/tls-download-mainnet.sh | bash
 ```
 
 ### follow the script instructions
