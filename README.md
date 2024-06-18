@@ -42,6 +42,7 @@ log out and back in after you do that. You may not have to do this step, but if 
 ### open up the correct ports
 
 ```
+sudo ufw allow 22
 sudo ufw allow 443
 sudo ufw allow 8173
 sudo ufw allow 9735
