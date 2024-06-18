@@ -7,7 +7,7 @@ Useful info for self-deploying fedimint software
 The main part is in the `tls-download-mainnet.sh` script: 
 
 ```
-curl -sSL https://raw.githubusercontent.com/tonygiorgio/fedimint/mainnet-deploy/docker/tls-download-mainnet.sh | bash
+curl -sSL https://raw.githubusercontent.com/MutinyWallet/fedimint-deployment-docs/master/docker/tls-download-mainnet.sh | bash
 ```
 
 ---
